@@ -58,6 +58,7 @@ set(
     -O3 
 	-gencode arch=compute_53,code=sm_53
 	-gencode arch=compute_62,code=sm_62
+	-gencode arch=compute_75,code=sm_75
 )
 
 if(CUDA_VERSION_MAJOR GREATER 9)
